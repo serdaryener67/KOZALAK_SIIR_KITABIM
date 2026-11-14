@@ -1,4 +1,4 @@
-KOZALAK - sürüm 2
+KOZALAK - sürüm 3
 
 WEB SİTESİ OLARAK YAYINLAMA (GitHub Pages)
 1. github.com'da yeni bir depo aç (ör: kozalak).
@@ -13,4 +13,4 @@ ANDROID APK (PWABuilder)
 
 GÜNCELLEME
 Yazıhane'de değişiklik yap > Yayınla > yeni zip'teki dosyaları depoya yükle (eskilerin üzerine yaz).
-sw.js içindeki CACHE_NAME ('kozalak-v2') her yayında otomatik artar.
+sw.js içindeki CACHE_NAME ('kozalak-v3') her yayında otomatik artar.
