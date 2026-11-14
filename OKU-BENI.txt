@@ -1,8 +1,9 @@
-KOZALAK - sürüm 3
+KOZALAK - sürüm 5
 
 WEB SİTESİ OLARAK YAYINLAMA (GitHub Pages)
 1. github.com'da yeni bir depo aç (ör: kozalak).
-2. Bu zip'in içindeki TÜM dosyaları deponun ana klasörüne yükle.
+2. Bu zip'in içindeki TÜM dosyaları VE 'varlik' klasörünü deponun ana klasörüne yükle.
+   (GitHub'da 'uploading an existing file' sayfasına klasörü de sürükleyebilirsin.)
 3. Settings > Pages > Branch: main / (root) > Save.
 4. Birkaç dakika sonra adres hazır: https://KULLANICIADIN.github.io/kozalak/
 
@@ -13,4 +14,4 @@ ANDROID APK (PWABuilder)
 
 GÜNCELLEME
 Yazıhane'de değişiklik yap > Yayınla > yeni zip'teki dosyaları depoya yükle (eskilerin üzerine yaz).
-sw.js içindeki CACHE_NAME ('kozalak-v3') her yayında otomatik artar.
+sw.js içindeki CACHE_NAME ('kozalak-v5') her yayında otomatik artar.

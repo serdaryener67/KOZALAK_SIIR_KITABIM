@@ -1,6 +1,6 @@
 // Bu dosya Yazıhane tarafından üretildi. Her yayında CACHE_NAME otomatik artar.
-const CACHE_NAME = 'kozalak-v3';
-const ASSETS = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-maskable.png'];
+const CACHE_NAME = 'kozalak-v5';
+const ASSETS = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-maskable.png', './varlik/v1.bin', './varlik/v2.bin', './varlik/v3.bin', './varlik/v4.bin', './varlik/v5.bin', './varlik/v6.bin', './varlik/v7.bin', './varlik/v8.bin', './varlik/v9.bin', './varlik/v10.bin', './varlik/v11.bin', './varlik/v12.bin', './varlik/v13.bin', './varlik/v14.bin', './varlik/v15.bin', './varlik/v16.bin', './varlik/v17.bin', './varlik/v18.bin', './varlik/v19.bin', './varlik/v20.bin', './varlik/v21.bin', './varlik/v22.bin', './varlik/v23.bin', './varlik/v24.bin', './varlik/v25.bin', './varlik/v26.bin', './varlik/v27.bin', './varlik/v28.bin', './varlik/v29.bin', './varlik/v30.bin', './varlik/v31.bin', './varlik/v32.bin', './varlik/v33.bin', './varlik/v34.bin'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE_NAME).then(c => c.addAll(ASSETS))); self.skipWaiting(); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE_NAME).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
 self.addEventListener('fetch', e => { if (e.request.method !== 'GET') return; e.respondWith(caches.match(e.request, {ignoreSearch: true}).then(r => r || fetch(e.request))); });
