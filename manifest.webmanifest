@@ -1,15 +1,15 @@
 {
-  "name": "KOZALAK · Serdar YENER",
-  "short_name": "KOZALAK",
+  "name": "Yazıhane · Kitap Yazma",
+  "short_name": "Yazıhane",
   "id": "./",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#05070c",
-  "theme_color": "#05070c",
+  "background_color": "#07090d",
+  "theme_color": "#07090d",
   "lang": "tr",
-  "description": "KOZALAK – Serdar YENER",
+  "description": "Şiir, hikâye ve kitap yazma uygulaması",
   "icons": [
     {
       "src": "icon-192.png",
